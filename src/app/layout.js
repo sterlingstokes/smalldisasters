@@ -1,6 +1,6 @@
 import "./globals.css";
 import { Inter } from "next/font/google";
-import Header from "./header/Header";
+import HeaderImages from "./header/HeaderImages";
 import Navigation from "./navigation/Navigation";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -14,9 +14,13 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <Header />
-        <Navigation />
-        {children}
+        <header>
+          <HeaderImages />
+          <Navigation />
+        </header>
+        <main className="flex flex-col items-center justify-between p-8 lg:p-24 lg:mx-48">
+          <section className="w-full">{children}</section>
+        </main>
       </body>
     </html>
   );

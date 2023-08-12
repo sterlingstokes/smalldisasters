@@ -1,8 +1,8 @@
 import React from "react";
 
-export const Header = ({}) => {
+export const HeaderImages = ({}) => {
   return (
-    <header className="flex flex-row items-center w-full h-96 bg-black max-w-screen">
+    <div className="flex flex-row items-center w-full h-96 bg-black max-w-screen">
       <div
         className="hidden lg:flex bg-[url('/band-at-brewery.jpg')] bg-cover bg-center bg-no-repeat w-full h-96"
         alt="Band outside at brewery"
@@ -19,7 +19,7 @@ export const Header = ({}) => {
         className="hidden lg:flex bg-[url('/band-photo-black-and-white.png')] bg-cover bg-center bg-no-repeat w-full h-96"
         alt="Band outside on main street"
       />
-    </header>
+    </div>
   );
 };
-export default Header;
+export default HeaderImages;
