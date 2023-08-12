@@ -4,6 +4,7 @@ import {
   MusicalNoteIcon,
   PencilIcon,
   ShoppingBagIcon,
+  CalendarIcon
 } from "@heroicons/react/24/solid";
 
 export const Navigation = ({}) => {
@@ -23,6 +24,14 @@ export const Navigation = ({}) => {
             <div className="flex flex-row items-center">
               <MusicalNoteIcon className="h-8 w-8" />
               <span className="sr-only">music</span>
+            </div>
+          </a>
+        </li>
+        <li className="hover:bg-zinc-400 p-6 hover:pointer">
+          <a href="/shows">
+            <div className="flex flex-row items-center">
+              <CalendarIcon className="h-8 w-8" />
+              <span className="sr-only">shows</span>
             </div>
           </a>
         </li>
