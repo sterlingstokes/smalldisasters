@@ -11,8 +11,8 @@ export const Shows = () => {
       <h1 className="text-zinc-800 text-6xl">shows</h1>
 
       <div className="flex flex-col">
-        <div className="p-8 my-4 bg-teal-50 shadow w-full flex flex-row items-start break-inside-avoid-column">
-          <div className="w-2/3">
+        <div className="p-8 my-4 bg-teal-50 shadow w-full flex flex-col lg:flex-row items-start">
+          <div className="w-full lg:w-2/3">
             <h2 className="text-xl font-bold lowercase">
               Friday, September 22, 2023
             </h2>
@@ -50,7 +50,7 @@ export const Shows = () => {
               umami, swag prism trust fund vexillologist pinterest subway.
             </p>
           </div>
-          <div className="ml-8 1/3">
+          <div className="mt-8 w-full lg:ml-8 lg:w-1/3">
             <Image
               src="/sample-flyer.jpg"
               width={300}
@@ -59,8 +59,8 @@ export const Shows = () => {
             />
           </div>
         </div>
-        <div className="p-8 my-4 bg-teal-50 shadow w-full flex flex-row items-start break-inside-avoid-column">
-          <div className="w-2/3">
+        <div className="p-8 my-4 bg-teal-50 shadow w-full flex flex-col lg:flex-row items-start">
+          <div className="w-full lg:w-2/3">
             <h2 className="text-xl font-bold lowercase">
               Friday, September 22, 2023
             </h2>
@@ -102,7 +102,7 @@ export const Shows = () => {
               forage. Keytar blackbird spyplane etsy green juice pabst portland.
             </p>
           </div>
-          <div className="ml-8 1/3">
+          <div className="mt-8 w-full lg:ml-8 lg:w-1/3">
             <Image
               src="/sample-flyer.jpg"
               width={300}
@@ -112,7 +112,7 @@ export const Shows = () => {
           </div>
         </div>
         <div className="p-8 my-4 bg-teal-50 shadow w-full flex flex-row">
-          <div className="w-2/3">
+          <div className="w-full lg:w-2/3">
             <h2 className="text-xl font-bold lowercase">
               Friday, September 22, 2023
             </h2>
@@ -150,7 +150,7 @@ export const Shows = () => {
               umami, swag prism trust fund vexillologist pinterest .
             </p>
           </div>
-          <div className="ml-8 1/3">
+          <div className="mt-8 w-full lg:ml-8 lg:w-1/3">
             <Image
               src="/sample-flyer.jpg"
               width={300}
