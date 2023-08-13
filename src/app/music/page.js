@@ -5,7 +5,7 @@ export const Music = () => {
     <>
       <h1 className="text-zinc-800 text-6xl">music</h1>
       <div className="flex flex-col lg:flex-row items-center w-full justify-between">
-        <div className="m-8">
+        <div className="m-8 lg:ml-0">
           <div className="border border-gray-200">
             <Image
               src="/octopus-art.jpg"

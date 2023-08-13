@@ -43,7 +43,7 @@ export const Navigation = ({}) => {
             </div>
           </a>
         </li>
-        <li className="hover:bg-zinc-400 p-6 hover:pointer">
+        <li className="hover:bg-zinc-400 p-6 hover:pointer hidden">
           <a href="/merch">
             <div className="flex flex-row items-center">
               <ShoppingBagIcon className="h-8 w-8" />
